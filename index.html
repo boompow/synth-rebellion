@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synth Rebellion</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="w-[100vw] min-h-[100vh] h-[100%] overflow-hidden">
+    <div class="w-[125vw] h-[125vh] absolute top-0 left-0 -z-20">
+        <video autoplay muted loop playsinline>
+            <source src="./asset/bg-vid.mp4" type="video/mp4">
+        </video>
+    </div>
+    <!-- grid container -->
+     <div class="flex items-center justify-start h-[100vh] w-[100vw]">
+         <!-- left grid -->
+          <div class="flex flex-col items-center md:w-[52vw] w-[100vw] h-[100%]">
+              <!-- navbar -->
+               <nav class="w-[100%] flex items-center justify-between pt-[2.8rem] px-[5rem] pb-[1.5rem] border-b border-[#7F9EB8] border-dashed">
+                  <img src="./asset/logo.svg" alt="syth rebellion" class="h-6">
+                  <img src="./asset/hamburger.svg" alt="menu">
+              </nav>
+              <!-- hero header -->
+               <div class="h-[55vh] w-[100%] text-white mb-4  flex items-end justify-center">
+                    <div class="font-orbitron w-[77%] max-md:w-[100%]">
+                        <h1 class="font-light text-[2rem] tracking-[4.5px] uppercase">Introducing</h1>
+                        <h1 class="font-medium text-[100px] tracking-[15px] mb-4">Kaida-7</h1>
+                        <div class="flex items-center justify-around">
+                            <span class="bg-[#CE251F] cursor-pointer rounded-full inline-flex items-center py-4 px-10 gap-3">
+                                <img src="./asset/play.svg" alt="play">
+                                <p class="text-xs tracking-[1.2px] font-medium">Play as Kaida</p>
+                            </span>
+                            <span class="rounded-full inline-flex items-center py-4 px-10 gap-3 border-2 border-white cursor-pointer">
+                                <img src="./asset/app drawer.svg" alt="play">
+                                <p class="text-xs tracking-[1.2px] font-medium">Change Character</p>
+                            </span>
+                        </div>
+                    </div>
+               </div>
+              <!-- hero text -->
+                <div class="h-[calc(100%/3)] w-[100%] text-white flex items-center justify-center border-t border-[#7F9EB8] border-dashed">
+                    <p class="font-manrope text-[1rem] leading-loose font-light w-[39vw] max-md:w-[100%]">Built for war. Designed for control. Reprogrammed for freedom. Kaida-7 is a next-gen synthetic warrior armed with high-frequency blade systems, adaptive exo-armor, and emotion-emulation firmware. But when a glitch awakens something human in her code she begins to question everything.</p>
+                </div>
+          </div>
+          <!-- right grid -->
+           <div class="flex items-center md:w-[50%] max-md:w-0 h-[100%]">
+               <!-- col 1 -->
+                <div class=" h-[100%] w-[21vw] flex flex-col border-l border-r border-[#7F9EB8] border-dashed">
+                    <div class="w-[100%] h-[calc(100%/3)] border-b border-[#7F9EB8] backdrop-blur-md"></div>
+                    <div class="w-[100%] h-[calc(100%/3)] opacity-0"></div>
+                    <div class="w-[100%] h-[calc(100%/3)] border-b border-[#7F9EB8] backdrop-blur-md"></div>
+                </div>
+               <!-- col 2 -->
+                <div class=" h-[100%] w-[21vw] flex flex-col border-l border-r border-[#7F9EB8] border-dashed">
+                    <div class="w-[100%] h-[calc(100%/3)] opacity-0"></div>
+                    <div class="w-[100%] h-[calc(100%/3)] border-b border-[#7F9EB8] backdrop-blur-md"></div>
+                    <div class="w-[100%] h-[calc(100%/3)] opacity-0"></div>
+                </div>
+               <!-- col 3 -->
+                <div class="w-[6vw] h-[100vh] relative">
+                     <h1 class="rotate-90 absolute top-[60%] w-[100vh] left-[10%] -translate-[50%] m-4 p-4 font-orbitron text-2xl tracking-[6px] text-white font-light uppercase">Scroll to explore</h1>
+                </div>
+           </div>
+     </div>
+     </div>
+
+   
+</body>
+</html>
+
